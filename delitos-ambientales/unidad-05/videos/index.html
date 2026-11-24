@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Videos de la unidad 5</title>
+<link rel="stylesheet" href="../comun/assets/vendor/fontawesome.min.css">
+<link rel="stylesheet" href="../comun/assets/vendor/solid.min.css">
+<link rel="stylesheet" href="video.css?v=5bcdb87b">
+<style>:root{--teal:#447E74;--marino:#343434;--oxido:#B8553E;--coral:#A59F17;--crema:#F6F2B6;--niebla:#A2D2CC; --hielo:#E5ECEE;--fondo:#FFFFFF;--piso:#A2D2CC;--tinta:#343434;--clave-fondo:#F6F2B6;--clave-borde:#A59F17}</style>
+</head>
+<body>
+<!-- Reproductor de los casos en video (reuniones con Juan del 27 y del 30/10/2026).
+     index.html?video=ID muestra un solo video para el iframe de Genially: por defecto la versión sin lengua de señas y un
+     botón para verla con lengua de señas, cada una con sus subtítulos. Sin ?video, la lista de la unidad para revisión;
+     con &revision=1, además, el estado y las rutas previstas. Las rutas son relativas a esta carpeta (medios/…), para que
+     viajen dentro del paquete exportado de Genially y del SCORM sin URL externas. -->
+<main class="video-ova" data-video>
+  <header class="video-cab" hidden>
+    <p class="video-titulo"></p>
+    <span class="video-estado" hidden></span>
+  </header>
+  <div class="video-marco">
+    <video controls controlslist="nodownload" disablepictureinpicture oncontextmenu="return false" preload="metadata" playsinline hidden>
+      <source type="video/mp4">
+      <track kind="subtitles" srclang="es" label="Español" default>
+    </video>
+    <div class="video-pendiente" role="status" aria-live="polite" hidden>
+      <i class="fas fa-clapperboard" aria-hidden="true"></i>
+      <p class="pendiente-titulo">Video en producción</p>
+      <p class="pendiente-detalle"></p>
+      <p class="pendiente-ruta" hidden></p>
+    </div>
+  </div>
+  <div class="video-opciones" role="group" aria-label="Versión del video">
+    <button type="button" class="video-version" data-version="normal" aria-pressed="true"><i class="fas fa-play" aria-hidden="true"></i> Ver sin lengua de señas</button>
+    <button type="button" class="video-version" data-version="senas" aria-pressed="false"><i class="fas fa-hands-asl-interpreting" aria-hidden="true"></i> Ver con lengua de señas</button>
+    <button type="button" class="video-cc" hidden><i class="fas fa-closed-captioning" aria-hidden="true"></i> <span class="video-cc-txt">Subtítulos: sí</span></button>
+  </div>
+  <nav class="video-lista" aria-label="Videos de la unidad" hidden></nav>
+</main>
+<script type="application/json" id="videos">[
+ {
+  "id": "ijda-u5-presentacion",
+  "unidad": 5,
+  "leccion": null,
+  "escena": 0,
+  "ubicacion": "Video de presentación de la unidad 5",
+  "titulo": "Video de presentación de la unidad 5",
+  "estado": "confirmado",
+  "normal": {
+   "src": "medios/ijda-u5-presentacion.mp4",
+   "subtitulos": "medios/ijda-u5-presentacion.es.vtt"
+  },
+  "senas": {
+   "src": "medios/ijda-u5-presentacion-lsc.mp4",
+   "subtitulos": "medios/ijda-u5-presentacion-lsc.es.vtt"
+  },
+  "sinSenas": true
+ },
+ {
+  "id": "ijda-u5-repaso",
+  "unidad": 5,
+  "leccion": null,
+  "escena": 0,
+  "ubicacion": "Video final de repaso de la unidad 5",
+  "titulo": "Video final de repaso de la unidad 5",
+  "estado": "confirmado",
+  "normal": {
+   "src": "medios/ijda-u5-repaso.mp4",
+   "subtitulos": "medios/ijda-u5-repaso.es.vtt"
+  },
+  "senas": {
+   "src": "medios/ijda-u5-repaso-lsc.mp4",
+   "subtitulos": "medios/ijda-u5-repaso-lsc.es.vtt"
+  },
+  "sinSenas": true
+ }
+]</script>
+<script src="video.js?v=5bcdb87b"></script>
+<script>(function(){var v=document.querySelector("video");function p(){var s=v.querySelector("source");var u=(s&&s.getAttribute("src"))||v.currentSrc;if(u&&!/-lsc\.mp4$/.test(u))v.poster=u.replace(/\.mp4$/,".jpg");}v.addEventListener("loadstart",p);setTimeout(p,0);})();</script>
+</body>
+</html>

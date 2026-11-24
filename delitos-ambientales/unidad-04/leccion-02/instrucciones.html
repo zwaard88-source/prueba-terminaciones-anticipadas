@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instrucciones de navegación · Lección 2</title>
+<link rel="stylesheet" href="../comun/assets/vendor/fontawesome.min.css">
+<link rel="stylesheet" href="../comun/assets/vendor/solid.min.css">
+<style>
+@font-face{font-family:Montserrat;src:url('../comun/assets/fonts/montserrat-latin.woff2') format('woff2');font-weight:400 800;font-display:swap}
+@font-face{font-family:Montserrat;src:url('../comun/assets/fonts/montserrat-latin-ext.woff2') format('woff2');font-weight:400 800;font-display:swap;unicode-range:U+0100-02AF}
+@font-face{font-family:Roboto;src:url('../comun/assets/fonts/roboto-latin.woff2') format('woff2');font-weight:300 700;font-display:swap}
+:root{--carbon:#343434;--negro:#000;--amarillo:#EBE35C;--teal:#489084;--menta:#A2D2CC;--claro:#E5ECEE}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;font-family:Roboto,Arial,sans-serif;color:var(--carbon);background:#fff}
+/* Modo botón: solo el botón, sobre el fondo blanco del recuadro del índice */
+html.modo-boton,html.modo-boton body{background:transparent;overflow:hidden}
+.abrir{display:none}
+html.modo-boton .abrir{display:inline-flex;position:absolute;inset:3px 5px 5px 3px;align-items:center;justify-content:center;gap:7px;border:2px solid var(--negro);border-radius:999px;
+  background:var(--amarillo);color:var(--negro);font:800 min(13px,4.4vw)/1.1 Montserrat,Arial,sans-serif;cursor:pointer;box-shadow:2px 2px 0 var(--negro);padding:0 10px;white-space:nowrap}
+html.modo-boton .abrir:hover,html.modo-boton .abrir:focus-visible{background:#fff;outline:none}
+html.modo-boton .abrir i{font-size:16px}
+html.modo-boton .contenido{display:none}
+html.modo-boton.abierto,html.modo-boton.abierto body{background:#fff;overflow:auto}
+html.modo-boton.abierto .abrir{display:none}html.modo-boton.abierto .contenido{display:flex}
+/* Instrucciones */
+.contenido{display:flex;flex-direction:column;min-height:100%;padding:16px 22px 18px;gap:12px;max-width:1100px;margin:0 auto}
+.cab{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.cab .etq{background:var(--amarillo);color:var(--negro);font:800 13px/1 Montserrat,Arial,sans-serif;padding:5px 10px;border-radius:4px}
+.cab h1{margin:0;flex:1;font:800 21px/1.2 Montserrat,Arial,sans-serif;color:var(--negro)}
+.cerrar{display:none;border:2px solid var(--negro);border-radius:999px;background:#fff;padding:6px 16px;font:700 14px/1 Montserrat,Arial,sans-serif;cursor:pointer;color:var(--negro)}
+html.abierto .cerrar{display:inline-block}
+html.en-ventana .cab h1{display:none}   /* en la ventana del aula, el título ya va en su franja */
+.cerrar:hover,.cerrar:focus-visible{background:var(--amarillo);outline:none}
+.pestanas{display:flex;gap:8px;flex-wrap:wrap}
+.pestanas button{border:2px solid var(--negro);border-radius:999px;background:#fff;padding:8px 16px;font:700 14.5px/1.1 Montserrat,Arial,sans-serif;color:var(--negro);cursor:pointer}
+.pestanas button[aria-selected="true"]{background:var(--carbon);color:#fff;border-color:var(--carbon)}
+.pestanas button:focus-visible{outline:3px solid var(--amarillo);outline-offset:2px}
+.panel{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-content:start}
+.panel[hidden]{display:none}
+.item{display:flex;gap:13px;align-items:flex-start;border:2px solid var(--negro);border-radius:12px;padding:13px 15px;background:#fff;box-shadow:3px 4px 0 var(--negro)}
+.item:nth-child(4n+2),.item:nth-child(4n+3){background:var(--claro)}
+.ico{flex:none;width:42px;height:42px;border-radius:50%;background:var(--amarillo);border:2px solid var(--negro);display:grid;place-items:center;color:var(--negro);font-size:18px}
+.item h3{margin:1px 0 5px;font:800 16px/1.25 Montserrat,Arial,sans-serif;color:var(--negro)}
+.item p{margin:0;font-size:15.5px;line-height:1.5}
+.niveles{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:2px 0 0;font:700 13px/1.2 Montserrat,Arial,sans-serif}
+.niveles span{border:2px solid var(--negro);border-radius:999px;padding:4px 10px;background:#fff}
+.niveles span:last-child{background:var(--menta)}
+.niveles i{font-size:12px}
+.pie{margin-top:auto;font-size:13px;color:#4a4a4a}
+@media (max-width:640px){.panel{grid-template-columns:1fr}.contenido{padding:12px 12px 14px}.cab h1{font-size:18px}}
+</style>
+</head>
+<body>
+<button type="button" class="abrir" aria-haspopup="dialog"><i class="fas fa-circle-info" aria-hidden="true"></i> Ver instrucciones de navegación</button>
+<main class="contenido">
+  <header class="cab">
+    <span class="etq">Unidad 4 · Lección 2</span>
+    <h1>Instrucciones de navegación</h1>
+    <button type="button" class="cerrar">Cerrar ✕</button>
+  </header>
+  <div class="pestanas" role="tablist" aria-label="Temas de las instrucciones"><button type="button" role="tab" id="t0" aria-controls="p0" aria-selected="true" tabindex="0">Moverse por la lección</button><button type="button" role="tab" id="t1" aria-controls="p1" aria-selected="false" tabindex="-1">Leer y explorar</button><button type="button" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1">Puntos y niveles</button></div>
+  <section class="panel" role="tabpanel" id="p0" aria-labelledby="t0"><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-bars"></i></span><div><h3>Índice de la lección</h3><p>El botón redondo de tres rayas, arriba a la derecha, abre el índice. Elija una página para ir directamente a ella.</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-arrows-left-right"></i></span><div><h3>Flechas</h3><p>Las flechas de la franja de arriba pasan a la página anterior o a la siguiente: así recorre la lección de forma continua. Con el teclado también sirven las flechas ← y →.</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-house"></i></span><div><h3>Inicio y fin</h3><p>En el índice, «Inicio de la lección» lleva a la portada de la lección y «Fin de la lección», a la meta, donde ve sus puntos y su nivel.</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-expand"></i></span><div><h3>Pantalla completa</h3><p>El botón «Pantalla completa», abajo en el centro de cada página (y abajo a la izquierda de cada actividad), amplía toda la lección: puede seguir con las flechas y el índice sin salir. Para volver, haga clic en «Salir» o pulse la tecla Esc.</p></div></article></section><section class="panel" role="tabpanel" id="p1" aria-labelledby="t1" hidden><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-hand-pointer"></i></span><div><h3>Dónde hacer clic</h3><p>Las tarjetas, fichas, puntos y paradas del camino se abren con un clic y muestran su texto para seguir leyendo. «Clic aquí», «Explorar» y «Ver más» señalan lo que falta por abrir.</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-book-open"></i></span><div><h3>Estados de lectura</h3><p>«Por leer»: aún no lo abre. «Falta leer»: lo abrió, pero no llegó al final. «Leída»: ya lo completó. La barra «Exploración» cuenta lo leído en la página.</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-angles-right"></i></span><div><h3>Seguir leyendo</h3><p>Un texto largo se muestra por partes: «Seguir leyendo» pasa a la parte siguiente. Si cierra una lectura sin terminarla, un aviso dice qué falta.</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-keyboard"></i></span><div><h3>Texto animado o texto fijo</h3><p>El texto aparece letra por letra. Para verlo completo de una vez, haga clic dentro del recuadro del texto o use el botón «Clic para texto fijo», abajo a la izquierda; «Clic para texto animado» vuelve a la escritura letra por letra.</p></div></article></section><section class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-star"></i></span><div><h3>Puntos</h3><p>Cada contenido que abre y lee suma 10 puntos. Cada página que lee completa es un tramo superado y suma 25 puntos más. Los puntos de la lección se ven arriba de cada actividad y al final, en «Fin de la lección».</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-medal"></i></span><div><h3>Niveles</h3><p>Cada lección empieza en «Observador». Con los puntos de la lección pasa a «Explorador» (desde el 15 % de los puntos posibles), a «Guardián» (desde el 45 %) y a «Protector del ambiente» (desde el 80 %). Si lee toda la lección, llega a «Protector del ambiente».</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-ellipsis"></i></span><div><h3>Tramos</h3><p>La fila de puntos de arriba representa las páginas de la lección: cada punto se marca cuando lee todo el contenido de esa página.</p></div></article><article class="item"><span class="ico" aria-hidden="true"><i class="fas fa-bookmark"></i></span><div><h3>Su avance</h3><p>El aula guarda la página en la que va: si sale, al volver sigue allí. La lección queda realizada al llegar a «Fin de la lección»; después puede marcar «Comenzar un nuevo intento» para recorrerla de nuevo. Los puntos y los niveles se guardan en este navegador: no son la calificación del curso.</p></div></article></section>
+  <p class="niveles" aria-label="Niveles de la lección"><span>Observador</span> <i class="fas fa-arrow-right" aria-hidden="true"></i> <span>Explorador</span> <i class="fas fa-arrow-right" aria-hidden="true"></i> <span>Guardián</span> <i class="fas fa-arrow-right" aria-hidden="true"></i> <span>Protector del ambiente</span></p>
+  <p class="pie">Investigación y judicialización de delitos contra el medio ambiente y los recursos naturales · Unidad 4. La justicia restaurativa en el marco del proceso penal colombiano y su aplicación a los delitos contra el medio ambiente y los recursos naturales</p>
+</main>
+<script>
+(function(){
+  var html = document.documentElement, boton = /[?&]modo=boton\b/.test(location.search);
+  if (boton) html.classList.add('modo-boton');
+  var aqui = location.href.replace(/[?#].*$/, '');
+  function leccion() { try { var w = window.parent; return w && w !== window && w.ovaLeccion && w.ovaLeccion.ventana ? w.ovaLeccion : null; } catch (e) { return null; } }
+  if (!boton && leccion()) html.classList.add('en-ventana');
+  function enPC() { return !!(document.fullscreenElement || document.webkitFullscreenElement); }
+  /* Abrir: en el aula, ventana sobre la lección; en Genially u otra página, esta misma instrucción en pantalla completa;
+     si el navegador no lo permite, en otra pestaña. */
+  document.querySelector('.abrir').addEventListener('click', function () {
+    var L = leccion();
+    if (L) { L.ventana(aqui, 'Instrucciones de navegación'); return; }
+    var el = html, pedir = el.requestFullscreen || el.webkitRequestFullscreen;
+    if (pedir && document.fullscreenEnabled !== false) {
+      try {
+        var p = pedir.call(el);
+        if (p && p.catch) p.catch(function () { window.open(aqui, '_blank', 'noopener'); });
+        return;
+      } catch (e) { /* sigue abajo */ }
+    }
+    window.open(aqui, '_blank', 'noopener');
+  });
+  function estado() { html.classList.toggle('abierto', boton && enPC()); if (boton && enPC()) document.getElementById('t0').focus(); }
+  document.addEventListener('fullscreenchange', estado); document.addEventListener('webkitfullscreenchange', estado);
+  document.querySelector('.cerrar').addEventListener('click', function () { if (enPC()) (document.exitFullscreen || document.webkitExitFullscreen).call(document); });
+  /* Escape: dentro de la ventana del aula, la cierra */
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    var L = leccion(); if (L && L.cerrarVentana && !boton) L.cerrarVentana();
+  });
+  /* Pestañas con teclado (flechas, Inicio, Fin) */
+  var tabs = [].slice.call(document.querySelectorAll('[role="tab"]'));
+  function elegir(t) {
+    tabs.forEach(function (x) { var s = x === t; x.setAttribute('aria-selected', String(s)); x.tabIndex = s ? 0 : -1;
+      document.getElementById(x.getAttribute('aria-controls')).hidden = !s; });
+    t.focus();
+  }
+  tabs.forEach(function (t, i) {
+    t.addEventListener('click', function () { elegir(t); });
+    t.addEventListener('keydown', function (e) {
+      var j = e.key === 'ArrowRight' ? i + 1 : e.key === 'ArrowLeft' ? i - 1 : e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1 : null;
+      if (j === null) return; e.preventDefault(); elegir(tabs[(j + tabs.length) % tabs.length]);
+    });
+  });
+})();
+</script>
+</body>
+</html>

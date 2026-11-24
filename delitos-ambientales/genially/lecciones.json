@@ -1,0 +1,412 @@
+[
+ {
+  "leccion": "0.1",
+  "titulo_genially": "DA · Inicio del curso",
+  "diapositivas": 10,
+  "nombres": [
+   "DA · Portada del curso",
+   "DA · Inicio del curso · Índice",
+   "DA · Inicio del curso-P01",
+   "DA · Inicio del curso-P02",
+   "DA · Inicio del curso-P03",
+   "DA · Inicio del curso-P04",
+   "DA · Inicio del curso-P05",
+   "DA · Inicio del curso-P06",
+   "DA · Inicio del curso-P07",
+   "DA · Inicio del curso · Fin"
+  ]
+ },
+ {
+  "leccion": "0.2",
+  "titulo_genially": "DA · Cierre del curso",
+  "diapositivas": 5,
+  "nombres": [
+   "DA · Cierre del curso · Portada",
+   "DA · Cierre del curso · Índice",
+   "DA · Cierre del curso-P01",
+   "DA · Cierre del curso-P02",
+   "DA · Cierre del curso · Fin"
+  ]
+ },
+ {
+  "leccion": "1.1",
+  "titulo_genially": "DA · U1 L1 · Problemáticas de daño al medio ambiente (deforestación, e",
+  "diapositivas": 14,
+  "nombres": [
+   "DA · U1-L1 · Inicio de la unidad",
+   "DA · U1-L1-P01",
+   "DA · U1-L1 · Portada",
+   "DA · U1-L1 · Índice",
+   "DA · U1-L1-P02",
+   "DA · U1-L1-P03",
+   "DA · U1-L1-P04",
+   "DA · U1-L1-P05",
+   "DA · U1-L1-P06",
+   "DA · U1-L1-P07",
+   "DA · U1-L1-P08",
+   "DA · U1-L1-P09",
+   "DA · U1-L1-P10",
+   "DA · U1-L1 · Fin"
+  ]
+ },
+ {
+  "leccion": "1.2",
+  "titulo_genially": "DA · U1 L2 · Constitución ecológica como base fundamental del derecho ",
+  "diapositivas": 8,
+  "nombres": [
+   "DA · U1-L2 · Portada",
+   "DA · U1-L2 · Índice",
+   "DA · U1-L2-P01",
+   "DA · U1-L2-P02",
+   "DA · U1-L2-P03",
+   "DA · U1-L2-P04",
+   "DA · U1-L2-P05",
+   "DA · U1-L2 · Fin"
+  ]
+ },
+ {
+  "leccion": "1.3",
+  "titulo_genially": "DA · U1 L3 · Sistema Nacional Ambiental: entidades, institutos, órgano",
+  "diapositivas": 8,
+  "nombres": [
+   "DA · U1-L3 · Portada",
+   "DA · U1-L3 · Índice",
+   "DA · U1-L3-P01",
+   "DA · U1-L3-P02",
+   "DA · U1-L3-P03",
+   "DA · U1-L3-P04",
+   "DA · U1-L3-P05",
+   "DA · U1-L3 · Fin"
+  ]
+ },
+ {
+  "leccion": "1.4",
+  "titulo_genially": "DA · U1 L4 · Ecosistemas como sujetos de protección especial",
+  "diapositivas": 5,
+  "nombres": [
+   "DA · U1-L4 · Portada",
+   "DA · U1-L4 · Índice",
+   "DA · U1-L4-P01",
+   "DA · U1-L4-P02",
+   "DA · U1-L4 · Fin"
+  ]
+ },
+ {
+  "leccion": "1.5",
+  "titulo_genially": "DA · U1 L5 · Daño ambiental vs. daño ecológico",
+  "diapositivas": 9,
+  "nombres": [
+   "DA · U1-L5 · Portada",
+   "DA · U1-L5 · Índice",
+   "DA · U1-L5-P01",
+   "DA · U1-L5-P02",
+   "DA · U1-L5-P03",
+   "DA · U1-L5-P04",
+   "DA · U1-L5-P05",
+   "DA · U1-L5-P06",
+   "DA · U1-L5 · Fin"
+  ]
+ },
+ {
+  "leccion": "2.1",
+  "titulo_genially": "DA · U2 L1 · Régimen jurídico de los recursos naturales renovables en ",
+  "diapositivas": 12,
+  "nombres": [
+   "DA · U2-L1 · Inicio de la unidad",
+   "DA · U2-L1-P01",
+   "DA · U2-L1 · Portada",
+   "DA · U2-L1 · Índice",
+   "DA · U2-L1-P02",
+   "DA · U2-L1-P03",
+   "DA · U2-L1-P04",
+   "DA · U2-L1-P05",
+   "DA · U2-L1-P06",
+   "DA · U2-L1-P07",
+   "DA · U2-L1-P08",
+   "DA · U2-L1 · Fin"
+  ]
+ },
+ {
+  "leccion": "2.2",
+  "titulo_genially": "DA · U2 L2 · Estructura y análisis de los tipos penales que protegen e",
+  "diapositivas": 8,
+  "nombres": [
+   "DA · U2-L2 · Portada",
+   "DA · U2-L2 · Índice",
+   "DA · U2-L2-P01",
+   "DA · U2-L2-P02",
+   "DA · U2-L2-P03",
+   "DA · U2-L2-P04",
+   "DA · U2-L2-P05",
+   "DA · U2-L2 · Fin"
+  ]
+ },
+ {
+  "leccion": "2.3",
+  "titulo_genially": "DA · U2 L3 · Extracción ilícita de minerales",
+  "diapositivas": 8,
+  "nombres": [
+   "DA · U2-L3 · Portada",
+   "DA · U2-L3 · Índice",
+   "DA · U2-L3-P01",
+   "DA · U2-L3-P02",
+   "DA · U2-L3-P03",
+   "DA · U2-L3-P04",
+   "DA · U2-L3-P05",
+   "DA · U2-L3 · Fin"
+  ]
+ },
+ {
+  "leccion": "2.4",
+  "titulo_genially": "DA · U2 L4 · Deforestación",
+  "diapositivas": 13,
+  "nombres": [
+   "DA · U2-L4 · Portada",
+   "DA · U2-L4 · Índice",
+   "DA · U2-L4-P01",
+   "DA · U2-L4-P02",
+   "DA · U2-L4-P03",
+   "DA · U2-L4-P04",
+   "DA · U2-L4-P05",
+   "DA · U2-L4-P06",
+   "DA · U2-L4-P07",
+   "DA · U2-L4-P08",
+   "DA · U2-L4-P09",
+   "DA · U2-L4-P10",
+   "DA · U2-L4 · Fin"
+  ]
+ },
+ {
+  "leccion": "2.5",
+  "titulo_genially": "DA · U2 L5 · Fenómeno de afectación ambiental por grupos armados organ",
+  "diapositivas": 10,
+  "nombres": [
+   "DA · U2-L5 · Portada",
+   "DA · U2-L5 · Índice",
+   "DA · U2-L5-P01",
+   "DA · U2-L5-P02",
+   "DA · U2-L5-P03",
+   "DA · U2-L5-P04",
+   "DA · U2-L5-P05",
+   "DA · U2-L5-P06",
+   "DA · U2-L5-P07",
+   "DA · U2-L5 · Fin"
+  ]
+ },
+ {
+  "leccion": "3.1",
+  "titulo_genially": "DA · U3 L1 · Dirección de la investigación y estrategia de judicializa",
+  "diapositivas": 9,
+  "nombres": [
+   "DA · U3-L1 · Inicio de la unidad",
+   "DA · U3-L1-P01",
+   "DA · U3-L1 · Portada",
+   "DA · U3-L1 · Índice",
+   "DA · U3-L1-P02",
+   "DA · U3-L1-P03",
+   "DA · U3-L1-P04",
+   "DA · U3-L1-P05",
+   "DA · U3-L1 · Fin"
+  ]
+ },
+ {
+  "leccion": "3.2",
+  "titulo_genially": "DA · U3 L2 · Construcción de los hechos jurídicamente relevantes en de",
+  "diapositivas": 6,
+  "nombres": [
+   "DA · U3-L2 · Portada",
+   "DA · U3-L2 · Índice",
+   "DA · U3-L2-P01",
+   "DA · U3-L2-P02",
+   "DA · U3-L2-P03",
+   "DA · U3-L2 · Fin"
+  ]
+ },
+ {
+  "leccion": "3.3",
+  "titulo_genially": "DA · U3 L3 · Procedimientos de policía judicial aplicados a la investi",
+  "diapositivas": 8,
+  "nombres": [
+   "DA · U3-L3 · Portada",
+   "DA · U3-L3 · Índice",
+   "DA · U3-L3-P01",
+   "DA · U3-L3-P02",
+   "DA · U3-L3-P03",
+   "DA · U3-L3-P04",
+   "DA · U3-L3-P05",
+   "DA · U3-L3 · Fin"
+  ]
+ },
+ {
+  "leccion": "3.4",
+  "titulo_genially": "DA · U3 L4 · Articulación con investigaciones en contexto bajo el tema",
+  "diapositivas": 6,
+  "nombres": [
+   "DA · U3-L4 · Portada",
+   "DA · U3-L4 · Índice",
+   "DA · U3-L4-P01",
+   "DA · U3-L4-P02",
+   "DA · U3-L4-P03",
+   "DA · U3-L4 · Fin"
+  ]
+ },
+ {
+  "leccion": "3.5",
+  "titulo_genially": "DA · U3 L5 · La prueba pericial en materia procesal penal frente a los",
+  "diapositivas": 8,
+  "nombres": [
+   "DA · U3-L5 · Portada",
+   "DA · U3-L5 · Índice",
+   "DA · U3-L5-P01",
+   "DA · U3-L5-P02",
+   "DA · U3-L5-P03",
+   "DA · U3-L5-P04",
+   "DA · U3-L5-P05",
+   "DA · U3-L5 · Fin"
+  ]
+ },
+ {
+  "leccion": "4.1",
+  "titulo_genially": "DA · U4 L1 · La justicia restaurativa en el marco del proceso penal co",
+  "diapositivas": 14,
+  "nombres": [
+   "DA · U4-L1 · Inicio de la unidad",
+   "DA · U4-L1-P01",
+   "DA · U4-L1 · Portada",
+   "DA · U4-L1 · Índice",
+   "DA · U4-L1-P02",
+   "DA · U4-L1-P03",
+   "DA · U4-L1-P04",
+   "DA · U4-L1-P05",
+   "DA · U4-L1-P06",
+   "DA · U4-L1-P07",
+   "DA · U4-L1-P08",
+   "DA · U4-L1-P09",
+   "DA · U4-L1-P10",
+   "DA · U4-L1 · Fin"
+  ]
+ },
+ {
+  "leccion": "4.2",
+  "titulo_genially": "DA · U4 L2 · Participación de las víctimas, comunidades y demás actore",
+  "diapositivas": 10,
+  "nombres": [
+   "DA · U4-L2 · Portada",
+   "DA · U4-L2 · Índice",
+   "DA · U4-L2-P01",
+   "DA · U4-L2-P02",
+   "DA · U4-L2-P03",
+   "DA · U4-L2-P04",
+   "DA · U4-L2-P05",
+   "DA · U4-L2-P06",
+   "DA · U4-L2-P07",
+   "DA · U4-L2 · Fin"
+  ]
+ },
+ {
+  "leccion": "4.3",
+  "titulo_genially": "DA · U4 L3 · Mecanismos de reparación, restauración y compensación en ",
+  "diapositivas": 6,
+  "nombres": [
+   "DA · U4-L3 · Portada",
+   "DA · U4-L3 · Índice",
+   "DA · U4-L3-P01",
+   "DA · U4-L3-P02",
+   "DA · U4-L3-P03",
+   "DA · U4-L3 · Fin"
+  ]
+ },
+ {
+  "leccion": "4.4",
+  "titulo_genially": "DA · U4 L4 · Criterios para la aplicación de la justicia restaurativa ",
+  "diapositivas": 5,
+  "nombres": [
+   "DA · U4-L4 · Portada",
+   "DA · U4-L4 · Índice",
+   "DA · U4-L4-P01",
+   "DA · U4-L4-P02",
+   "DA · U4-L4 · Fin"
+  ]
+ },
+ {
+  "leccion": "4.5",
+  "titulo_genially": "DA · U4 L5 · Análisis de casos y experiencias de justicia restaurativa",
+  "diapositivas": 6,
+  "nombres": [
+   "DA · U4-L5 · Portada",
+   "DA · U4-L5 · Índice",
+   "DA · U4-L5-P01",
+   "DA · U4-L5-P02",
+   "DA · U4-L5-P03",
+   "DA · U4-L5 · Fin"
+  ]
+ },
+ {
+  "leccion": "5.1",
+  "titulo_genially": "DA · U5 L1 · Principio de oportunidad en los delitos contra el medio a",
+  "diapositivas": 16,
+  "nombres": [
+   "DA · U5-L1 · Inicio de la unidad",
+   "DA · U5-L1-P01",
+   "DA · U5-L1 · Portada",
+   "DA · U5-L1 · Índice",
+   "DA · U5-L1-P02",
+   "DA · U5-L1-P03",
+   "DA · U5-L1-P04",
+   "DA · U5-L1-P05",
+   "DA · U5-L1-P06",
+   "DA · U5-L1-P07",
+   "DA · U5-L1-P08",
+   "DA · U5-L1-P09",
+   "DA · U5-L1-P10",
+   "DA · U5-L1-P11",
+   "DA · U5-L1-P12",
+   "DA · U5-L1 · Fin"
+  ]
+ },
+ {
+  "leccion": "5.2",
+  "titulo_genially": "DA · U5 L2 · Preacuerdos y negociaciones entre la Fiscalía y el imputa",
+  "diapositivas": 7,
+  "nombres": [
+   "DA · U5-L2 · Portada",
+   "DA · U5-L2 · Índice",
+   "DA · U5-L2-P01",
+   "DA · U5-L2-P02",
+   "DA · U5-L2-P03",
+   "DA · U5-L2-P04",
+   "DA · U5-L2 · Fin"
+  ]
+ },
+ {
+  "leccion": "5.3",
+  "titulo_genially": "DA · U5 L3 · Allanamiento a cargos y aceptación de responsabilidad en ",
+  "diapositivas": 8,
+  "nombres": [
+   "DA · U5-L3 · Portada",
+   "DA · U5-L3 · Índice",
+   "DA · U5-L3-P01",
+   "DA · U5-L3-P02",
+   "DA · U5-L3-P03",
+   "DA · U5-L3-P04",
+   "DA · U5-L3-P05",
+   "DA · U5-L3 · Fin"
+  ]
+ },
+ {
+  "leccion": "5.4",
+  "titulo_genially": "DA · U5 L4 · Reparación integral del daño ambiental como criterio para",
+  "diapositivas": 9,
+  "nombres": [
+   "DA · U5-L4 · Portada",
+   "DA · U5-L4 · Índice",
+   "DA · U5-L4-P01",
+   "DA · U5-L4-P02",
+   "DA · U5-L4-P03",
+   "DA · U5-L4-P04",
+   "DA · U5-L4-P05",
+   "DA · U5-L4-P06",
+   "DA · U5-L4 · Fin"
+  ]
+ }
+]
