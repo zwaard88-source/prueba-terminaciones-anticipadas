@@ -1,0 +1,234 @@
+/* Derecho de petición y acción de tutela · colores de la PORTADA de la maqueta de Genially del curso
+   Portada de la plantilla de Genially del curso, leída con la API del visor (view.genially.com/api/view/6ab97a75ac07c45c35543a24, Unidad 2, publicada; las Unidades 1, 3 y 4 son copias con la misma portada, comprobado en el editor con geniallyAPI.getSlides) el 31/10/2026: colores de los SVG y de los textos de la página 1 «Portada».
+     petroleo_oscuro: #002F46 · franja superior de 1200 × 100 con los logos DAE y Fiscalía (SVG)
+     petroleo: #003F5E · botón «Comenzar» (SVG)
+     coral: #EE616B · recuadro del título del curso, al 74 % sobre el fondo (SVG); el secundario del tema es #EF626C
+     amarillo: #E1D400 · etiqueta «Curso» (SVG); claro: nunca en letra pequeña ni bajo texto blanco
+     menta_claro: #E5F1F1 · fondo de la portada (SVG de 1200 × 675)
+     salmon_claro: #F19B84 · aro del menú hamburguesa (SVG)
+     blanco: #FFFFFF · título del curso y «Comenzar» (texto); tercero del tema
+     medio: #396B83 · mezcla: petróleo 75 % + menta claro 25 %
+     acento_claro: #F8F5C6 · tinte: amarillo 22 % + blanco (fondo de la caja de idea clave)
+     claro2: #F2F8F8 · tinte: menta claro 50 % + blanco
+     oxido: #A75260 · mezcla: coral 70 % + petróleo oscuro 30 % (letra de acento sobre fondo claro)
+   Papeles: oscuro #002F46, medio #396B83, acento #EE616B, acento_claro #F8F5C6, claro #E5F1F1, claro2 #F2F8F8, oxido #A75260, blanco #FFFFFF.
+   Generado por herramientas/paleta_tutela.py desde recursos/paleta-curso.json; no se edita a mano. Se carga después de
+   base.css: cambia colores y el tamaño del marco. */
+:root{
+  --teal:#396B83;--marino:#002F46;--oxido:#A75260;--coral:#EE616B;--crema:#F8F5C6;--niebla:#E5F1F1;
+  --hielo:#F2F8F8;--fondo:#FFFFFF;--piso:#E5F1F1;--tinta:#002F46;--clave-fondo:#F8F5C6;--clave-borde:#EE616B
+}
+.ova{border-color:#E5F1F1;box-shadow:0 6px 18px #002F461f}
+
+/* Sobre los paneles petróleo, los rótulos claros van en menta. */
+.panel .lectura-eyebrow,.panel-texto .lectura-eyebrow,.tabla-enc,.panel .panel-vacio i,.panel-fichas .panel-vacio i,.chips li i{color:#E5F1F1}
+
+/* Tarjetas y columnas: tintes de la portada (menta, naranja claro, blanco). */
+.giro:nth-child(4n+2) .frente{background:#E5F1F166;border-color:#396B83;box-shadow:0 5px 0 #396B83}
+.giro:nth-child(4n+3) .frente{background:#F8F5C6;border-color:#EE616B;box-shadow:0 5px 0 #EE616B}
+.giro:nth-child(4n+4) .frente{background:#FFFFFF;border-color:#002F4655;box-shadow:0 5px 0 #002F4655}
+.columna.tono1{background:#E5F1F166;border-color:#396B83;box-shadow:0 6px 0 #396B83}
+.columna.tono2{background:#F8F5C6;border-color:#EE616B;box-shadow:0 6px 0 #EE616B}
+.columna.tono3{background:#FFFFFF;border-color:#002F4655;box-shadow:0 6px 0 #002F4655}
+
+/* Fondos de lámina y mapa, caminos y líneas. */
+.lamina{background:linear-gradient(180deg,#F2F8F8 0%,#FFFFFF 75%)}
+.mapa{background:radial-gradient(circle at 50% 52%,#FFFFFF 0,#FFFFFF 40%,#F2F8F8 78%)}
+.camino,.linea .camino{border-top-color:#EE616B}
+.mapa-lineas line{stroke:#EE616B}
+
+/* En el marco ancho, el centro del mapa radial ocupa el espacio entre las ramas
+   y permite que la ilustración aprobada se vea a escala de lectura. */
+@container ova (min-width:900px){
+  .marco-ancho .mental-centro{width:52%;min-height:150px}
+  .marco-ancho .mental-centro .mental-arte{max-height:120px}
+}
+
+/* Ilustraciones nítidas al escalarse en Genially: sin sombra. */
+.ctx-arte img,.arte-escena img,.celda-foto img,.puntos-lienzo img,.act-figura img,.caso-figura img,.def-ilus img{filter:none}
+
+/* Caja clave de Juan con los colores del curso: fondo naranja claro y borde naranja. */
+.caja-clave{background:var(--clave-fondo);border-color:var(--clave-borde)}
+mark.ref-texto{background:var(--clave-fondo);box-shadow:inset 0 -2px 0 var(--clave-borde)}
+.dorso{box-shadow:0 5px 0 var(--marino)}
+.confeti i:nth-child(5n+1){background:var(--niebla)}
+.avance.completo output{box-shadow:0 0 0 0 #396B8366}
+@keyframes latidoBorde{0%,100%{box-shadow:0 0 0 0 #EE616B00}50%{box-shadow:0 0 0 6px #EE616B33}}
+@keyframes brillo{0%{box-shadow:0 0 0 0 #396B8366}100%{box-shadow:0 0 0 12px #396B8300}}
+
+/* Marco de este curso: el recuadro de la plantilla bajo el título de la escena, 1113 × 448. En pantalla completa
+   la escena conserva ese marco y crece con zoom (motor: datos.marco). */
+html.en-pantalla-completa .ova{width:1113px;height:448px}
+
+/* Enlaces de la ficha («https://revistas.usc.gal/…», «https://www.scielo.org.mx/…»): se parten donde haga falta, nunca se
+   cortan (QA del 30/10/2026: letra cortada en U1-L2-E16 y U2-L1-E02). */
+.lectura-texto,.esquema-extracto,.giro-extracto,.rama-extracto,.esquema-rotulo,.giro-rotulo,.celda-rotulo,.leyenda-rotulo{overflow-wrap:anywhere}
+
+/* Marco de 1000 px: con cinco fichas o más (dos columnas), la columna de fichas se ensancha; con la proporción del SRPA la
+   segunda columna quedaba debajo del panel y no se podía tocar (QA: «elemento 2: tapado», U3-L1-E12/E13). */
+.marco-ancho .bloque:has(> .panel-fichas):has(> .fichas > .ficha:nth-child(5)){grid-template-columns:minmax(0,1.35fr) minmax(0,2fr)}
+/* Lámina con icono e ilustración de relleno: el relleno volvía la caja una columna y el icono quedaba solo arriba, con un
+   hueco a su derecha (QA de Derechos humanos: U4-L2-E07). El icono va a la izquierda del texto y el relleno debajo de los dos. */
+.marco-ancho .ctx-texto.con-relleno:has(> .ctx-icono){display:grid!important;grid-template-columns:auto minmax(0,1fr);column-gap:20px;align-content:center;align-items:start}
+.marco-ancho .ctx-texto.con-relleno > .ctx-icono{grid-column:1;grid-row:1 / span 3;margin-bottom:0}
+.marco-ancho .ctx-texto.con-relleno > :not(.ctx-icono):not(.relleno-arte){grid-column:2}
+.marco-ancho .ctx-texto.con-relleno > .relleno-arte{grid-column:1 / -1}
+/* Bitácora: la columna del título, más angosta; con un título breve la columna del SRPA dejaba vacío bajo él (QA de Derechos
+   humanos: U1-L2-E06, 288 × 192 px). Aquí aún más (16 %): con «Lista de verificación» quedaban 240 × 216 px (U2-L3-E17). */
+.marco-ancho .caso-pagina.sin-arte>.caso-hoja{grid-template-columns:minmax(150px,16%) minmax(0,1fr)}
+/* Historia del caso y ruta: el dibujo redondo de la derecha (170 px) no cabía en los 161 px útiles de la caja cuando los rótulos
+   de los momentos ocupan dos renglones; la caja desbordaba 3 px con cualquier letra y el motor la dejaba en 14,2 px, con un hueco
+   (QA a 1113 × 448: U4-L4-E05 y E11). */
+.marco-ancho .ruta-lectura .ruta-arte{width:150px}.marco-ancho .ruta-lectura .ruta-arte .obj-svg{width:130px}
+/* Ilustración al lado de la mediación (tarjetas que giran y demás «arte-lado»): las del curso son apaisadas y, pegadas al pie
+   de una columna alta y angosta, dejaban vacío arriba a la izquierda (04/11/2026, U1-L1-E09: unos 230 × 225 px). Como en
+   Derechos humanos: la columna se ensancha, la imagen va centrada y un recuadro suave del alto de las tarjetas la enmarca. */
+.marco-ancho .arte-escena:not(.arte-alta):not(.arte-fondo-fig){flex-basis:29%;align-items:center;padding:10px;
+  background:color-mix(in srgb,var(--hielo) 80%,transparent)}
+/* Puntos con una ilustración casi cuadrada (las de la Unidad 1, proporción ≈ 1,0; la de la portada es 1,38): en la columna del
+   motor (todo lo que deja una leyenda del 36 %) la imagen, a todo el alto, dejaba unos 160 × 360 px vacíos a cada lado (QA del
+   04/11/2026, U1-L2-E12 y U1-L3-E04, con la «norma-competencia» nueva). La columna de la imagen se ajusta a ella y la leyenda
+   toma el resto. */
+@container ova (min-width:900px){
+  .marco-ancho .puntos-escena:not(.inmersiva):has(.puntos-lienzo[data-r^="0."],.puntos-lienzo[data-r^="1.0"],.puntos-lienzo[data-r^="1.1"]){
+    grid-template-columns:minmax(0,44%) minmax(300px,1fr)}
+}
+
+/* == Estándar del 08/11/2026: escenario de oficina y ciudad y juego por lección (herramientas/estandar_curso.py) == */
+/* Colores de este curso: {"#07415C": "#002F46", "#2E6780": "#396B83", "#85451B": "#A75260", "#AD5920": "#EE616B", "#C9DBE2": "#E5F1F1", "#E9F0F3": "#F2F8F8", "#FDFDDE": "#F8F5C6", "#568DA3": "#759AAA", "#8FAAB6": "#8097A2", "#E4CA96": "#F6B0B5", "#C6BB92": "#F3AB98", "#4A2613": "#5C2D35", "#7C401A": "#8E4652", "#FBFBC8": "#F8F5C6", "#EDDACE": "#FCDFE1", "#D6AC90": "#F7B8BC"} */
+/* Mapa conceptual inmersivo (Juan, 08/11/2026): paisaje en SVG y CSS con la paleta de la portada; el motor pinta las paradas. */
+.layout-esquema .escenario:has(.esq-esc){padding:0}
+.bloque:has(>.esq-esc){flex:1;min-height:0;display:flex}
+.esq-esc{position:relative;flex:1;min-height:0;width:100%;overflow:hidden;border-radius:14px;background:#F2F8F8}
+.esq-paisaje{position:absolute;inset:0;width:100%;height:100%;display:block}
+.esq-cielo{fill:#F2F8F8}.esq-sol{fill:#F6B0B5}.esq-halo{fill:#F6B0B5;opacity:.3;transform-box:fill-box;transform-origin:center;animation:esq-sol 5s ease-in-out infinite}
+.esq-nube ellipse{fill:#fff}.esq-nube{animation:esq-nube 26s linear infinite}.esq-nube.n2{animation-duration:34s;animation-delay:-12s}.esq-nube.n3{animation-duration:40s;animation-delay:-20s}
+.esq-ave{fill:none;stroke:#002F46;stroke-width:2;stroke-linecap:round;animation:esq-ave 9s ease-in-out infinite}.esq-ave.a2{animation-delay:-3s}
+.esq-monte.m1{fill:#8097A2;opacity:.55}.esq-monte.m2{fill:#759AAA;opacity:.55}.esq-suelo.s1{fill:#396B83}.esq-suelo.s2{fill:#F3AB98}.esq-rio{fill:#E5F1F1}
+.esq-arbol rect,.esq-pino rect{fill:#5C2D35}.esq-arbol circle{fill:#396B83}.esq-arbol.b circle{fill:#F3AB98}.esq-pino path{fill:#F3AB98}
+.esq-tocon path{fill:#002F46}.esq-tocon ellipse{fill:#8097A2}.esq-tronco{stroke:#5C2D35;stroke-width:6;stroke-linecap:round;fill:none}
+.h-0 .esq-cielo{fill:#F8F5C6}.h-1 .esq-cielo{fill:#F2F8F8}.h-2 .esq-cielo{fill:#E5F1F1}.h-3 .esq-cielo{fill:#FCDFE1}
+.esq-barca path:first-child{fill:#5C2D35}.esq-barca path:last-child{fill:#fff}.esq-barca{animation:esq-barca 7s ease-in-out infinite}
+.esq-terraza.t1{fill:#A75260;opacity:.75}.esq-terraza.t2{fill:#EE616B;opacity:.8}.esq-terraza.t3{fill:#5C2D35}.esq-pila{fill:#8097A2}
+.esq-draga rect{fill:#F6B0B5;stroke:#000;stroke-width:2}.esq-draga path{stroke:#002F46;stroke-width:7;stroke-linecap:round}.esq-draga circle{fill:#002F46}
+.esq-edificio{fill:#759AAA}.esq-ventana{stroke:#F6B0B5;stroke-width:4;stroke-dasharray:6 7}.esq-chimenea{fill:#002F46}.esq-humo circle{fill:#8097A2;opacity:.55;animation:esq-humo 4s ease-in-out infinite}.esq-humo circle:nth-child(2){animation-delay:-1.3s}.esq-humo circle:nth-child(3){animation-delay:-2.6s}
+.esq-frontis{fill:#fff;stroke:#002F46;stroke-width:3}.esq-friso{fill:#002F46}.esq-columna{fill:#fff;stroke:#002F46;stroke-width:2}.esq-mastil{stroke:#002F46;stroke-width:3}.esq-bandera{fill:#F6B0B5;stroke:#002F46;stroke-width:2;transform-box:fill-box;transform-origin:left center;animation:esq-flama 2.4s ease-in-out infinite}
+.esq-casa rect{fill:#fff;stroke:#002F46;stroke-width:2}.esq-casa rect.p{fill:#5C2D35}.esq-casa path{fill:#EE616B;stroke:#002F46;stroke-width:2}.esq-molino .poste{stroke:#002F46;stroke-width:5}.esq-molino .aspas{fill:#F6B0B5;stroke:#002F46;stroke-width:2;transform-origin:0 -96px;animation:esq-gira 9s linear infinite}
+.esq-carpa path{fill:#F6B0B5;stroke:#002F46;stroke-width:3}.esq-carpa path.p{fill:#5C2D35}.esq-testigo path{stroke:#002F46;stroke-width:3;fill:none}.esq-testigo path.f{fill:#EE616B;stroke:none}
+.esq-lupa circle{fill:rgba(255,255,255,.5);stroke:#002F46;stroke-width:7}.esq-lupa path{stroke:#002F46;stroke-width:9;stroke-linecap:round}.esq-lupa{animation:esq-lupa 8s ease-in-out infinite}
+.esq-nieve{fill:#fff;opacity:.85}.esq-meta path{stroke:#000;stroke-width:4}.esq-meta path.f{fill:#F6B0B5;stroke:#000;stroke-width:2}
+@keyframes esq-barca{0%,100%{transform:translateX(-14px)}50%{transform:translateX(18px)}}
+@keyframes esq-humo{0%,100%{transform:translateY(0);opacity:.35}50%{transform:translateY(-14px);opacity:.7}}
+@keyframes esq-flama{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.82)}}
+@keyframes esq-gira{to{transform:rotate(360deg)}}
+@keyframes esq-lupa{0%,100%{transform:translate(590px,258px)}50%{transform:translate(800px,246px)}}
+.esq-esc:not(:has(.nodo-esquema:not(.visto))) .esq-bioma{filter:saturate(1.35)}
+.esq-camino{fill:none;stroke:#fff;stroke-width:6;stroke-linecap:round;stroke-dasharray:1 17;vector-effect:non-scaling-stroke;animation:esq-camino 1.6s linear infinite}
+@keyframes esq-sol{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
+@keyframes esq-nube{0%,100%{transform:translateX(-60px)}50%{transform:translateX(60px)}}
+@keyframes esq-ave{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,-12px)}}
+@keyframes esq-camino{to{stroke-dashoffset:-36}}
+.esq-lamina{position:absolute;left:50%;top:5%;width:27%;aspect-ratio:1;max-height:58%;transform:translateX(-50%);border-radius:50%;overflow:hidden;border:3px solid #000;background:#F2F8F8;box-shadow:4px 5px 0 #000}
+.esq-lamina img{width:100%;height:100%;object-fit:contain;display:block}
+.esq-esc .esquema-hijos{position:absolute;inset:0;height:auto;margin:0;display:block}
+.esq-esc .esq-parada,.esq-esc .esq-parada:nth-child(even),.esq-esc .esq-parada.visto,.esq-esc .esq-parada.visto:nth-child(even){position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-100%);margin:0;padding:0;width:300px;max-width:30%;min-height:0;background:none;border:0;border-radius:0;box-shadow:none;display:flex;flex-direction:column;align-items:center;gap:6px;font:inherit;color:inherit;cursor:pointer;animation:none}
+.esq-esc .esq-tarjeta{animation:aparece .55s cubic-bezier(.2,.8,.2,1) var(--d) both}
+.esq-esc.n3 .esq-parada,.esq-esc.n3 .esq-parada:nth-child(even),.esq-esc.n3 .esq-parada.visto{width:270px}.esq-esc.n4 .esq-parada,.esq-esc.n4 .esq-parada:nth-child(even),.esq-esc.n4 .esq-parada.visto{width:236px;max-width:23%}.esq-esc.n5 .esq-parada,.esq-esc.n5 .esq-parada:nth-child(even),.esq-esc.n5 .esq-parada.visto{width:190px;max-width:19%}
+.esq-tarjeta{display:flex;flex-direction:column;align-items:center;gap:5px;width:100%;box-sizing:border-box;padding:10px 12px;text-align:center;background:#fff;border:2px solid #000;border-radius:14px;box-shadow:4px 5px 0 #000;transition:transform .2s,box-shadow .2s}
+.esq-parada:hover .esq-tarjeta,.esq-parada:focus-visible .esq-tarjeta{transform:translate(-2px,-3px);box-shadow:6px 8px 0 #000}
+.esq-parada:focus-visible{outline:none}.esq-parada:focus-visible .esq-tarjeta{outline:3px solid #EE616B;outline-offset:3px}
+.esq-esc .esquema-rotulo{font-size:14px;line-height:1.22;color:#000}.esq-esc .esquema-extracto{display:none!important}.esq-esc .esquema-arte .obj-svg{width:40px}
+.esq-esc .esquema-marca{margin:2px 0 0;background:#fff;border:1.5px solid #000}
+.esq-esc .esq-parada.visto .esq-tarjeta{background:#F2F8F8}
+.esq-yo{position:absolute;left:var(--x,10%);top:var(--y,90%);width:26px;height:38px;margin:-52px 0 0 24px;z-index:2;pointer-events:none;transition:left .9s cubic-bezier(.5,0,.3,1),top .9s cubic-bezier(.5,0,.3,1);animation:esq-yo 1.1s ease-in-out infinite}
+.esq-yo svg{width:100%;height:100%;display:block}.esq-yo circle{fill:#EE616B;stroke:#000;stroke-width:2}.esq-yo path{fill:#F6B0B5;stroke:#000;stroke-width:2}.esq-yo path.pierna{fill:none;stroke:#000;stroke-width:4;stroke-linecap:round}
+@keyframes esq-yo{0%,100%{translate:0 0}50%{translate:0 -4px}}
+.esq-pin{position:relative;flex:none;width:30px;height:30px;border-radius:50%;background:#F6B0B5;border:3px solid #000;display:flex;align-items:center;justify-content:center;font:800 13px Montserrat,Arial,sans-serif;color:#000}
+.esq-parada:not(.visto) .esq-pin::after{content:"";position:absolute;inset:-3px;border-radius:50%;border:3px solid #F6B0B5;animation:esq-onda 1.8s ease-out infinite}
+.esq-parada.visto .esq-pin{background:#E5F1F1}
+@keyframes esq-onda{from{opacity:.95;transform:scale(1)}to{opacity:0;transform:scale(2.5)}}
+@media (prefers-reduced-motion:reduce){.esq-halo,.esq-nube,.esq-ave,.esq-camino,.esq-pin::after{animation:none!important}}
+@container ova (max-width:600px){
+  .esq-paisaje{height:34%}.esq-lamina,.esq-pin{display:none}.esq-esc .esquema-hijos{position:absolute;inset:18% 10px 10px;width:auto;display:flex;flex-direction:column;gap:9px;overflow:visible}
+  .esq-esc .esq-parada,.esq-esc .esq-parada:nth-child(even),.esq-esc .esq-parada.visto{position:static;transform:none;width:100%!important;max-width:none!important;flex:1;min-height:0}
+  .esq-yo{display:none}.esq-esc .esq-tarjeta{flex:1;flex-direction:row;justify-content:flex-start;gap:9px;padding:6px 10px;text-align:left;min-height:0;box-shadow:3px 3px 0 #000}
+  .esq-esc .esquema-arte .obj-svg{width:30px}.esq-esc .esquema-rotulo{flex:1;font-size:13px}.esq-esc .esquema-marca{flex:none;margin:0}
+}
+
+/* Juego por lección: tramos, nivel y puntos en el encabezado (motor: juegoHtml). */
+.juego{display:flex;align-items:center;gap:10px;margin-left:auto;font:800 11.5px Montserrat,Arial,sans-serif;color:#002F46;flex:none}
+.guia .juego+.avance{margin-left:0;min-width:170px}
+.j-tramos{display:flex;gap:3px;align-items:center}.j-tramos i{display:block;width:9px;height:9px;border-radius:50%;background:#fff;box-shadow:inset 0 0 0 2px #002F46}
+.j-tramos i.hecho{background:#396B83;box-shadow:inset 0 0 0 2px #002F46}.j-tramos i.aqui{background:#F6B0B5;transform:scale(1.35)}
+.j-nivel{display:inline-flex;gap:4px;align-items:center;background:#F2F8F8;border-radius:99px;padding:2px 9px}.j-nivel i{color:#002F46}
+.j-puntos{display:inline-flex;gap:4px;align-items:center;background:#F6B0B5;border:2px solid #000;border-radius:99px;padding:1px 9px}.j-puntos i{color:#000}
+.j-puntos.sube{animation:j-sube .5s cubic-bezier(.3,1.7,.5,1)}
+@keyframes j-sube{0%{transform:scale(1)}45%{transform:scale(1.28)}100%{transform:scale(1)}}
+.j-aviso{position:absolute;left:50%;top:44%;z-index:60;transform:translate(-50%,-50%);background:#002F46;color:#fff;font:800 19px Montserrat,Arial,sans-serif;padding:12px 26px;border-radius:14px;border:3px solid #F6B0B5;pointer-events:none;animation:j-aviso 2.6s ease both}
+.j-aviso.nivel{background:#F6B0B5;color:#000;border-color:#000;top:58%}
+@keyframes j-aviso{0%{opacity:0;transform:translate(-50%,-30%) scale(.8)}12%,80%{opacity:1;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-70%)}}
+@container ova (max-width:900px){.j-tramos{display:none}.guia .juego+.avance{min-width:110px}}
+@container ova (max-width:600px){.j-nivel{display:none}.juego{margin-left:0}}
+@media (prefers-reduced-motion:reduce){.esq-yo,.esq-barca,.esq-humo circle,.esq-bandera,.esq-molino .aspas,.esq-lupa,.j-aviso,.j-puntos.sube{animation:none!important}}
+/* Escenarios de Justicia restaurativa (biomaRestaurativa en el motor): oficina y ciudad, no paisaje (JP, 10/11/2026) */
+.esq-per .cuerpo{stroke:#002F46;stroke-width:1.5}.esq-per.r1 .cuerpo{fill:#002F46}.esq-per.r2 .cuerpo{fill:#EE616B}.esq-per.r3 .cuerpo{fill:#759AAA}.esq-per.r4 .cuerpo{fill:#5C2D35}
+.esq-per .cara{stroke:#002F46;stroke-width:1.5}.esq-per.k1 .cara{fill:#FCDFE1}.esq-per.k2 .cara{fill:#F7B8BC}.esq-per.k3 .cara{fill:#8E4652}
+.esq-per .rueda{fill:none;stroke:#002F46;stroke-width:3}.esq-per .silla{fill:none;stroke:#002F46;stroke-width:3;stroke-linejoin:round}.esq-per .piernas{fill:none;stroke:#396B83;stroke-width:5;stroke-linecap:round}
+.esq-per .baston{stroke:#5C2D35;stroke-width:3;stroke-linecap:round}.esq-per .sombrero{stroke:#F3AB98;stroke-width:4;stroke-linecap:round;fill:none}.esq-per .sombrero.copa{fill:#F3AB98}
+.jr-pared{fill:#F8F5C6}.jr-zocalo{fill:#F3AB98}.jr-piso{fill:#F6B0B5}.jr-junta{stroke:#F3AB98;stroke-width:2;fill:none;opacity:.7}
+.jr-interior .esq-cielo{fill:#F8F5C6}
+.jr-lejos{fill:#E5F1F1;opacity:.8}.jr-anden{fill:#F3AB98}.jr-calle{fill:#8097A2}
+.jr-edificio rect{stroke:#002F46;stroke-width:2}.jr-edificio.c1>rect:first-child{fill:#F8F5C6}.jr-edificio.c2>rect:first-child{fill:#FCDFE1}.jr-edificio.c3>rect:first-child{fill:#E5F1F1}
+.jr-edificio .v{fill:#FFFFFF;stroke-width:1.5}.jr-edificio .p{fill:#002F46}
+.jr-silla .pata{stroke:#002F46;stroke-width:3;fill:none;stroke-linecap:round}.jr-silla .asiento{fill:#002F46}.jr-silla .espaldar{fill:#759AAA;stroke:#002F46;stroke-width:2}
+.jr-silla.c1 .espaldar{fill:#EE616B}.jr-silla.c2 .espaldar{fill:#F6B0B5}.jr-silla.giratoria .espaldar{fill:#002F46}.jr-silla.alta .espaldar{fill:#5C2D35;stroke:#002F46}
+.jr-planta .hoja{fill:#396B83}.jr-planta .matera{fill:#EE616B;stroke:#002F46;stroke-width:2}
+.jr-sede .ala{fill:#F8F5C6;stroke:#002F46;stroke-width:2}.jr-sede .cuerpo{fill:#FFFFFF;stroke:#002F46;stroke-width:2}.jr-sede .cornisa{fill:#002F46}.jr-sede .columna{fill:#E5F1F1;stroke:#002F46;stroke-width:1.5}
+.jr-sede .v{fill:#E5F1F1;stroke:#002F46;stroke-width:1.5}.jr-sede .p{fill:#002F46}.jr-sede .escalon{fill:none;stroke:#002F46;stroke-width:3}.jr-sede .mastil{stroke:#002F46;stroke-width:3}.jr-sede .bandera{fill:#EE616B}
+.jr-farol .poste{stroke:#002F46;stroke-width:4}.jr-farol .luz{fill:#F6B0B5;stroke:#002F46;stroke-width:2}
+.jr-tienda rect{fill:#FFFFFF;stroke:#002F46;stroke-width:2}.jr-tienda .toldo{fill:#EE616B;stroke:#002F46;stroke-width:2}.jr-tienda .vitrina{fill:#E5F1F1}.jr-tienda rect.p{fill:#002F46}
+.jr-cancha .arco{fill:none;stroke:#002F46;stroke-width:4;stroke-linejoin:round}.jr-cancha .malla{fill:none;stroke:#8097A2;stroke-width:1.5}
+.jr-banca path{stroke:#5C2D35;stroke-width:4;stroke-linecap:round;fill:none}
+.jr-paradero .techo{stroke:#002F46;stroke-width:8;stroke-linecap:round}.jr-paradero .poste{stroke:#002F46;stroke-width:4}.jr-paradero .vidrio{fill:#F2F8F8;stroke:#002F46;stroke-width:1.5}.jr-paradero .banco{stroke:#5C2D35;stroke-width:5;stroke-linecap:round}
+.jr-semaforo .poste{stroke:#002F46;stroke-width:4}.jr-semaforo rect{fill:#002F46}.jr-semaforo .l1{fill:#EE616B}.jr-semaforo .l2{fill:#F6B0B5;animation:jr-luz 3s steps(1) infinite}
+.jr-cebra rect{fill:#FFFFFF;opacity:.9}
+.jr-ventanal .marco{fill:#F2F8F8;stroke:#002F46;stroke-width:4}.jr-ventanal .ciudad{fill:#E5F1F1}.jr-ventanal .cruz{stroke:#002F46;stroke-width:3;fill:none}
+.jr-estante>rect:first-child{fill:#FFFFFF;stroke:#002F46;stroke-width:3}.jr-estante .tabla{stroke:#002F46;stroke-width:3;fill:none}.jr-estante .az{stroke:#002F46;stroke-width:1.2}
+.jr-estante .a0{fill:#002F46}.jr-estante .a1{fill:#EE616B}.jr-estante .a2{fill:#759AAA}.jr-estante .caja{fill:#F6B0B5;stroke:#002F46;stroke-width:1.5}
+.jr-escritorio .tapa{fill:#5C2D35}.jr-escritorio .pata{stroke:#5C2D35;stroke-width:6;fill:none}.jr-escritorio .cajon{fill:#F7B8BC;stroke:#5C2D35;stroke-width:2}
+.jr-escritorio .pantalla{fill:#002F46;stroke:#002F46;stroke-width:2}.jr-escritorio .pie{stroke:#002F46;stroke-width:4;stroke-linecap:round;fill:none}.jr-escritorio .papel{fill:#FFFFFF;stroke:#002F46;stroke-width:1.2}
+.jr-reloj circle{fill:#FFFFFF;stroke:#002F46;stroke-width:3}.jr-reloj path{stroke:#002F46;stroke-width:3;stroke-linecap:round;fill:none}
+.jr-tablero rect{fill:#FFFFFF;stroke:#002F46;stroke-width:3}.jr-tablero .trazo{stroke:#759AAA;stroke-width:4;stroke-linecap:round;fill:none}.jr-tablero .pata{stroke:#002F46;stroke-width:3;fill:none}
+.jr-tapete{fill:#F7B8BC;opacity:.55}.jr-mesita ellipse{fill:#5C2D35}.jr-mesita path{stroke:#5C2D35;stroke-width:5}.jr-mesita .objeto{fill:#F8F5C6;stroke:#002F46;stroke-width:1.5}
+.jr-estrado .panel{fill:#E5F1F1;stroke:#002F46;stroke-width:2}.jr-estrado .escudo{fill:#F8F5C6;stroke:#002F46;stroke-width:3}.jr-estrado .tarima{fill:#F3AB98;stroke:#002F46;stroke-width:2}
+.jr-estrado .mesa{fill:#5C2D35}.jr-estrado .frente{fill:#A75260}
+.jr-asta .palo{stroke:#5C2D35;stroke-width:4;stroke-linecap:round}.jr-asta .tela{stroke:#002F46;stroke-width:1.5}.jr-asta .t0{fill:#EE616B}.jr-asta .t1{fill:#759AAA}.jr-asta .base{fill:#5C2D35}
+.jr-mesa-parte rect{fill:#5C2D35}.jr-mesa-parte path{stroke:#5C2D35;stroke-width:5;fill:none}
+.jr-baranda{stroke:#5C2D35;stroke-width:4;stroke-linecap:round;fill:none;opacity:.85}
+/* Lecciones largas (la 2.1 tiene 41 páginas): los puntos de tramo de la barra se achican para que «Exploración completa» quepa
+   en el marco (QA: letra cortada por el iframe con 21 puntos). */
+.j-tramos:has(i:nth-child(17)){gap:2px}.j-tramos:has(i:nth-child(17)) i{width:6px;height:6px;box-shadow:inset 0 0 0 1.5px #002F46}
+.j-tramos:has(i:nth-child(30)){gap:1.5px}.j-tramos:has(i:nth-child(30)) i{width:4.5px;height:4.5px;box-shadow:inset 0 0 0 1px #002F46}
+/* 40 páginas o más (SRPA U1 L3: 47): puntos más pequeños y la barra de avance no se encoge, para que «Exploración completa»
+   quepa en el marco (QA del 11/11/2026: letra cortada por el iframe). */
+.j-tramos:has(i:nth-child(40)){gap:1px}.j-tramos:has(i:nth-child(40)) i{width:3.5px;height:3.5px;box-shadow:inset 0 0 0 1px #002F46}
+.guia .juego+.avance{flex-shrink:0}
+@keyframes jr-luz{0%{fill:#F6B0B5}50%{fill:#396B83}}
+@media (prefers-reduced-motion:reduce){.jr-semaforo .l2{animation:none!important}}
+
+/* Celular (QA del 11/11/2026, SRPA): en las escenas inmersivas la guía va sobre la ilustración y la fila del juego la hacía más
+   alta, tapando los puntos de arriba. Ahí el juego no se muestra (los puntos se siguen sumando). */
+@container ova (max-width:600px){.con-fondo .guia .juego{display:none}}
+/* Ventana de retroalimentación en el marco de 448 px de alto (como restaurativa): el título en una línea, para que «Parte N de M»,
+   «Seguir leyendo» y el botón quepan con una retroalimentación larga. */
+.marco-ancho .tarjeta-retro .tr-linea{height:4px}.marco-ancho .tarjeta-retro .tr-sub{font-size:14px}
+.marco-ancho .tarjeta-retro .tr-der{gap:5px;padding:12px 16px 12px 18px}
+
+/* La fila del juego no hace más alta la guía (QA del 11/11/2026, SRPA: con pastillas de 20 px la guía crecía 4 px y las lecturas
+   de la ruta se desplazaban 4 px): pastillas de 14 px, como la barra de avance. */
+.j-puntos,.j-nivel{padding-top:0;padding-bottom:0;line-height:12px}.j-puntos{border-width:1.5px}
+/* == fin del estándar del 08/11/2026 == */
+
+/* Terminaciones anticipadas: pantallas de lectura sin columna de íconos decorativos (el texto gana ancho) */
+.compacta.sin-tips:not(.con-ilus):not(.cmp-esc){grid-template-columns:minmax(0,1fr)}
+.compacta.sin-tips:not(.con-ilus):not(.cmp-esc)>.cmp-lado{display:none}
