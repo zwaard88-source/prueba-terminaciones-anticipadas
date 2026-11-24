@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><title>carga</title>
+<script>
+(async function () {
+  var l = new URLSearchParams(location.search).get('l');
+  try {
+    var r = await fetch('l' + l + '.json', {cache: 'no-store'});
+    var d = await r.json();
+    parent.postMessage({tipo: 'dp-genially', l: l, datos: d}, 'https://app.genially.com');
+  } catch (e) { parent.postMessage({tipo: 'dp-genially', l: l, error: String(e)}, 'https://app.genially.com'); }
+})();
+</script>

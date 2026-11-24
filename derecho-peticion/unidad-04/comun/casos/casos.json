@@ -1,0 +1,66 @@
+{
+ "u4l1c1": {
+  "titulo": "Caso de aplicación: la tutela de la ciudadana y el informe",
+  "texto": [
+   "Una ciudadana presenta una acción de tutela contra la Fiscalía General de la Nación. Afirma que solicitó copia de una respuesta anterior, información sobre el estado de un trámite administrativo y orientación sobre la dependencia competente para atender un requerimiento adicional. La tutela indica que la persona no recibió una respuesta dentro del término legal. El juez solicita informe a la Entidad y concede un plazo de cuarenta y ocho 48 horas para responder."
+  ],
+  "audio": "audio/u4l1c1.mp3"
+ },
+ "u4l2c1": {
+  "titulo": "Caso de aplicación: la orden de contactar a una mujer mayor",
+  "texto": [
+   "Un juez de tutela ordena a la Fiscalía General de la Nación establecer contacto con una mujer mayor con discapacidad que afirma ser víctima de un delito, revisar una solicitud de información presentada ante la Entidad y remitir un informe sobre las actuaciones adelantadas dentro de las veinticuatro 24 horas siguientes. La orden se comunica a una dependencia que no posee toda la información requerida y que debe coordinar con un despacho que conoce una actuación penal y con un área de atención a víctimas."
+  ],
+  "audio": "audio/u4l2c1.mp3"
+ },
+ "u4l3c2": {
+  "titulo": "Caso práctico: Mariana Ríos y la certificación",
+  "texto": [
+   "Mariana Ríos presenta una tutela porque no ha recibido respuesta a una solicitud de certificación del tiempo que trabajó en la Fiscalía. El juez ampara su derecho de petición y ordena a la dependencia responsable responder de fondo y comunicar la respuesta dentro de las cuarenta y ocho horas siguientes a la notificación del fallo.",
+   "El equipo encargado de la defensa considera que el juez no valoró un documento aportado al proceso y prepara la impugnación. Mientras tanto, el área responsable ya dispone de la información necesaria para atender lo ordenado. Al coordinar las actuaciones, uno de los servidores propone: “Esperemos a que el superior decida; si cambia el fallo, no tendremos que enviar otra respuesta”. Con base en esa propuesta, la dependencia suspende el trámite de la elaboración y comunicación de la contestación."
+  ],
+  "audio": "audio/u4l3c2.mp3"
+ },
+ "u4l3c1": {
+  "titulo": "Caso de aplicación: la orden de responder en 48 horas",
+  "texto": [
+   "Un juez de tutela ordena a la Fiscalía General de la Nación responder de fondo una petición presentada por una ciudadana y comunicarle la respuesta dentro de las cuarenta y ocho 48 horas siguientes a la notificación de la providencia. La orden se dirige a la Entidad sin individualizar en la parte resolutiva la dependencia que debe elaborar la respuesta. La petición original contiene una solicitud de información institucional y una solicitud relacionada con una actuación penal en curso."
+  ],
+  "audio": "audio/u4l3c1.mp3"
+ },
+ "u4l4c1": {
+  "titulo": "Caso 1: demora y ausencia de comunicación de una respuesta",
+  "texto": [
+   "Una ciudadana solicita a la Fiscalía General de la Nación copias de documentos relacionados con una actuación y, adicionalmente, pregunta cuál es la dependencia responsable del trámite. La solicitud se radica por un canal institucional, pero es remitida internamente a dos dependencias. Diez días después, no existe respuesta comunicada a la peticionaria. Esta presenta una acción de tutela por presunta vulneración de su derecho fundamental de petición."
+  ],
+  "audio": "audio/u4l4c1.mp3"
+ },
+ "u4l4c2": {
+  "titulo": "Caso 2: falta de motivación y solicitud sometida a procedimiento especial",
+  "texto": [
+   "Una persona presenta una petición ante la Fiscalía General de la Nación en la que solicita que se modifique una decisión adoptada dentro de una actuación penal en curso. La dependencia responde que la petición es improcedente porque el asunto corresponde al proceso penal, pero no explica el mecanismo aplicable ni la razón por la cual la Entidad no puede resolver por la vía administrativa. La persona presenta tutela por presunta vulneración de sus derechos de petición y debido proceso."
+  ],
+  "audio": "audio/u4l4c2.mp3"
+ },
+ "u4l4c3": {
+  "titulo": "Caso 3: víctima, acceso a la justicia y corrección de datos personales",
+  "texto": [
+   "Una persona, que afirma ser víctima de un delito, solicita información sobre el estado de una noticia criminal y pide que se corrija un dato personal que aparece registrado de manera errónea en una comunicación institucional. La solicitud es recibida por una dependencia de atención al usuario. Esta dependencia considera que el asunto corresponde exclusivamente al despacho que conoce la investigación y remite internamente el escrito sin informar a la persona solicitante. Transcurrido el término legal, la persona no recibe respuesta y presenta tutela por presunta vulneración de sus derechos de petición, acceso a la justicia, hábeas data y debido proceso."
+  ],
+  "audio": "audio/u4l4c3.mp3"
+ },
+ "u4l4c4": {
+  "titulo": "Caso 4: persona investigada, datos personales y acceso a información",
+  "texto": [
+   "Una persona solicita a la Fiscalía General de la Nación que le informe si existen registros asociados a su nombre en sistemas institucionales. Además, solicita copia integral de una carpeta de indagación y pide la eliminación de cualquier anotación que pueda afectarla en procesos de selección laboral. La comunicación no adjunta documentos que permitan establecer la calidad en la que interviene la persona en la actuación."
+  ],
+  "audio": "audio/u4l4c4.mp3"
+ },
+ "u4l4c5": {
+  "titulo": "Caso 5: medida provisional y enfoque diferencial",
+  "texto": [
+   "Una mujer mayor con discapacidad, manifiesta ser víctima de un delito y presenta una tutela contra la Fiscalía General de la Nación. Afirma que no ha recibido información comprensible sobre el estado de una solicitud y que requiere con urgencia orientación sobre las medidas institucionales disponibles para proteger su integridad. El juez admite la tutela y decreta una medida provisional para que la Entidad establezca contacto con la accionante, revise su solicitud y remita un informe sobre las actuaciones adelantadas dentro de las veinticuatro 24 horas siguientes."
+  ],
+  "audio": "audio/u4l4c5.mp3"
+ }
+}

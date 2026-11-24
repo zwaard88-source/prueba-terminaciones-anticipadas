@@ -1,0 +1,51 @@
+{
+ "u2l1c1": {
+  "titulo": "Caso de aplicación: la persona mayor que no usa canales virtuales",
+  "texto": [
+   "Una persona mayor acude a una sede de la Fiscalía General de la Nación para preguntar por el estado de una solicitud escrita presentada días antes. Manifiesta que no utiliza correo electrónico ni plataformas virtuales y que no comprende a qué dependencia debe dirigirse. La persona encargada de la atención le indica, sin revisar la información disponible, que consulte la página web y presente nuevamente la solicitud por Internet."
+  ],
+  "audio": "audio/u2l1c1.mp3"
+ },
+ "u2l2c1": {
+  "titulo": "Caso de aplicación: una petición con tres solicitudes",
+  "texto": [
+   "Una persona presenta una petición escrita en la que solicita: (i) copia de una respuesta emitida por la Fiscalía General de la Nación respecto de una comunicación anterior; (ii) información sobre la dependencia competente para recibir una queja relacionada con la atención recibida en una sede; y (iii) revisión de una decisión adoptada dentro de una actuación penal en curso."
+  ],
+  "audio": "audio/u2l2c1.mp3"
+ },
+ "u2l3c2": {
+  "titulo": "Caso 1: eliminación",
+  "texto": [
+   "Un Ciudadano escribe: “La investigación terminó y una orden judicial dispuso eliminar mi anotación del registro de consulta pública del SPOA. Solicito que se cumpla y que, además, se borre todo el expediente”."
+  ],
+  "audio": "audio/u2l3c2.mp3"
+ },
+ "u2l3c3": {
+  "titulo": "Caso 2: anonimización",
+  "texto": [
+   "Laura Vernal Acosta solicita: “Necesito estadísticas de denuncias por amenazas para un estudio. No requiero nombres, documentos de identidad ni números de casos”. El reporte disponible contiene, además de los nombres, edades exactas, ciudades de domiclio y relatos particulares."
+  ],
+  "audio": "audio/u2l3c3.mp3"
+ },
+ "u2l3c4": {
+  "titulo": "Caso 3: ocultamiento",
+  "texto": [
+   "Inés Baldés Wora, víctima de amenazas, solicita: “Mi dirección y mi teléfono aparecen en un reporte del caso que reciben personas que no necesitan conocerlos. Pido que esos datos no queden visibles para ellas, pero que el despacho pueda seguir contactándome de forma segura”."
+  ],
+  "audio": "audio/u2l3c4.mp3"
+ },
+ "u2l3c1": {
+  "titulo": "Caso de aplicación: la copia de una carpeta de indagación",
+  "texto": [
+   "Una persona solicita a la Fiscalía General de la Nación copia integral de una carpeta relacionada con una indagación penal en la que afirma haber sido mencionada. Además, solicita que se le informe si existen registros asociados a su nombre y que se elimine cualquier anotación que pueda afectarla en procesos de selección laboral. La comunicación no adjunta documentos que permitan establecer la calidad en la que interviene la persona en la actuación."
+  ],
+  "audio": "audio/u2l3c1.mp3"
+ },
+ "u2l4c1": {
+  "titulo": "Caso de aplicación: la ciudadana que pide una respuesta anterior",
+  "texto": [
+   "Una ciudadana presenta una petición escrita ante la Fiscalía General de la Nación y solicita copia de una respuesta anterior, información sobre el estado de un trámite administrativo y orientación sobre la dependencia competente para atender un requerimiento adicional. La solicitud se radica y se remite internamente a dos dependencias. Una de ellas prepara un proyecto de respuesta dentro del término, pero no se consolida la información sobre todos los puntos solicitados ni se conserva evidencia de que el documento hubiera sido enviado a la ciudadana."
+  ],
+  "audio": "audio/u2l4c1.mp3"
+ }
+}

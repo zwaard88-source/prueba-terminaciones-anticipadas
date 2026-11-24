@@ -1,0 +1,33 @@
+{
+ "u1l1c1": {
+  "titulo": "Caso de aplicación: la asociación comunitaria y los canales de atención",
+  "texto": [
+   "Una asociación comunitaria remite una comunicación a la Fiscalía General de la Nación. En ella expresa preocupación por las dificultades que enfrentan varias personas para obtener orientación sobre los canales institucionales de atención. La asociación solicita que se informe cuáles son dichos canales y propone que la Entidad utilice mensajes más claros y accesibles para la comunidad."
+  ],
+  "audio": "audio/u1l1c1.mp3"
+ },
+ "u1l2c1": {
+  "titulo": "Caso práctico: dos solicitudes en un mismo escrito",
+  "texto": [
+   "Una ciudadana presenta ante la Fiscalía General de la Nación un escrito titulado “Derecho de petición” con dos solicitudes. Primero, pide conocer el horario de atención y el canal para presentar una queja por el servicio recibido. Segundo, en su condición de víctima de unos hechos que son objeto de una indagación penal identificada con su número de noticia criminal, solicita que el fiscal que conoce el asunto entreviste a una persona que presenció los hechos."
+  ],
+  "audio": "audio/u1l2c1.mp3"
+ },
+ "u1l2c2": {
+  "titulo": "Caso de aplicación: una comunicación con cuatro solicitudes",
+  "texto": [
+   "Una persona presenta por el canal escrito de la Fiscalía General de la Nación una comunicación en la que solicita: (i) copia de un acto administrativo expedido por una dependencia de la Entidad; (ii) información sobre los canales institucionales para radicar una queja; (iii) concepto sobre la interpretación de una norma penal en un caso hipotético; y (iv) la modificación de una decisión adoptada dentro de un proceso penal en curso."
+  ],
+  "audio": "audio/u1l2c2.mp3"
+ },
+ "u1l3c1": {
+  "titulo": "Caso de aplicación: la carta de la ciudadana",
+  "texto": [
+   "Señores, Fiscalía General de la Nación. Asunto: Información sobre mi solicitud de protección y amenazas recientes.",
+   "Mi nombre es Elena Robles Zalcedo y soy víctima dentro de la actuación que, para efectos de este ejemplo, se identifica como CASO-FICTICIO-A. El 20 de octubre de 2026 presenté una solicitud de medidas de protección, identificada en este caso como SOLICITUD-PROTECCIÓN-B, porque Julián Argotes Veltrán me ha amenazado. No he recibido información sobre lo que ha ocurrido con esa solicitud. Les pido que me informen qué trámite le dieron, qué dependencia la está atendiendo y si ya se tomó alguna decisión. Si ya me respondieron, solicito copia de esa respuesta y que me indiquen cuándo y por qué medio me la enviaron. Las amenazas continúan. Ayer, 8 de noviembre de 2026, Julián Argotes Veltrán me envió un mensaje diciendo que me haría daño si seguía con la denuncia. Adjunto una copia y tengo miedo de que me agreda. Por eso, además de conocer el estado de mi solicitud, pido que se atienda con urgencia mi necesidad de protección y que dentro del proceso capturen inmediatamente a Julián Argotes Veltrán. Por mi seguridad, les pido que se comuniquen conmigo únicamente por el medio de contacto seguro que indiqué en mi solicitud de protección.",
+   "Atentamente, Elena Robles Salcedo.",
+   "La dependencia responde únicamente: «Su escrito fue remitido al área competente». No identifica el destino de la remisión ni informa qué ocurrió con la solicitud anterior, no se pronuncia sobre la copia y no deja evidencia de haber canalizado de manera urgente la información sobre las nuevas amenazas."
+  ],
+  "audio": "audio/u1l3c1.mp3"
+ }
+}

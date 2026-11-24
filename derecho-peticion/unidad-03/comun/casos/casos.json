@@ -1,0 +1,26 @@
+{
+ "u3l1c1": {
+  "titulo": "Caso de aplicación: la petición sin respuesta que llega a tutela",
+  "texto": [
+   "Una persona presenta una petición escrita ante la Fiscalía General de la Nación solicitando información sobre el estado de una comunicación anterior. Transcurrido el término legal, no recibe respuesta ni evidencia de que la Entidad haya comunicado una decisión. Posteriormente, presenta acción de tutela y solicita el amparo de su derecho fundamental de petición."
+  ],
+  "audio": "audio/u3l1c1.mp3"
+ },
+ "u3l3c1": {
+  "titulo": "Caso de aplicación: la grabación judicial",
+  "texto": [
+   "Una abogada representa a una víctima reconocida en un proceso penal. La abogada pide al juzgado una copia completa de la grabación de una audiencia. El juez niega la entrega porque la grabación contiene información que permite identificar y localizar a un testigo protegido.",
+   "La abogada presenta una tutela contra esa negativa. El juez de tutela niega el amparo. El expediente se remite a la Corte Constitucional, que no lo selecciona para revisión. Para este ejercicio, se entiende que la decisión ya es definitiva.",
+   "Meses después, la oficina encargada de conservar la grabación informa que preparó una nueva versión. En ella se ocultaron los datos de identificación y ubicación del testigo, pero se conservaron las partes relacionadas con la intervención de la víctima. La abogada solicita al juzgado acceso únicamente a esa versión. El juez vuelve a negar el acceso. La abogada interpone recurso de reposición, pero el juez mantiene su decisión. Como explicación, se limita a mencionar la negativa anterior: no analiza el informe de la oficina ni la nueva versión solicitada. Para este caso hipotético, se supone que no existe otro recurso judicial disponible contra esa decisión.",
+   "La abogada presenta una segunda tutela. Esta vez cuestiona la nueva decisión del juzgado y pide que se examine su solicitud de acceso a la versión que oculta los datos del testigo. Informa que ya había presentado una tutela, pero aclara que ahora no solicita la grabación completa ni pretende cambiar el primer fallo de tutela. La Fiscalía es vinculada para que aporte la información que tenga sobre el caso."
+  ],
+  "audio": "audio/u3l3c1.mp3"
+ },
+ "u3l4c1": {
+  "titulo": "Caso de aplicación: la tutela contra el juzgado penal",
+  "texto": [
+   "Una persona presenta una acción de tutela contra un juzgado penal y vincula a la Fiscalía General de la Nación. Afirma que se vulneró su derecho al debido proceso porque el juez negó una solicitud probatoria en una audiencia. La Fiscalía advierte que el accionante interpuso una tutela anterior contra el mismo juzgado, con fundamento en la misma audiencia, los mismos hechos y la misma pretensión. La primera tutela fue decidida negativamente y la providencia se encuentra ejecutoriada."
+  ],
+  "audio": "audio/u3l4c1.mp3"
+ }
+}
